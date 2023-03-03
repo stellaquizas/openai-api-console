@@ -1,0 +1,10 @@
+node_modules
+
+#ignore the .env file
+.env
+
+# ignore the mac .DS_Store file
+.DS_Store
+
+# ignore config files
+.prettierrc
