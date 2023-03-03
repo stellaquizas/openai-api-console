@@ -9,6 +9,9 @@
   left: 0;
   right: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 div {
   white-space: pre-wrap;
@@ -144,6 +147,11 @@ div {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
   padding: 12px;
   font-size: 1.2em;
+}
+
+textarea {
+  max-height: 300px;
+  overflow: auto;
 }
 
 .App-logo {
